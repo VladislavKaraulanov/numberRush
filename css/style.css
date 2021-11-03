@@ -1,0 +1,51 @@
+body {
+    background: -webkit-linear-gradient(171deg, #121212,#181818);
+    background: linear-gradient(171deg, #121212,#181818);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 100vh;
+    font-weight: bold;
+    color: orange;
+}
+
+::-webkit-scrollbar-track{
+	background: -webkit-linear-gradient(171deg, #121212,#181818);
+    background: linear-gradient(171deg, #121212,#181818);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    background: -webkit-linear-gradient(171deg, #121212,#181818);
+    background: linear-gradient(171deg, #121212,#181818);
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: orange;
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.number__container {
+    display: flex;
+    justify-content: center;
+}
+
+.number__container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 400px;
+    border: 5px solid orange;
+    border-radius: 5px;
+}
+
+.number {
+    font-size: 50px;
+}
