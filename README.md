@@ -72,7 +72,7 @@ Until there is a maximum number (max Number)
 ```
 new numberRush('numberOne', {
     speed: 3,
-    steep: 10,
+    steps: 10,
     maxNumber: 2023
 })
 ```
@@ -105,7 +105,7 @@ new numberRush('numberOne', {
 
 the following default values will be applied automatically:
 * speed : 5
-* steep : 1
+* steps : 1
 * maxNumber : 300
 
 # NumberRush `Russian version`
@@ -181,7 +181,7 @@ new numberRush('numberTwo')
 ```
 new numberRush('numberOne', {
     speed: 3,
-    steep: 10,
+    steps: 10,
     maxNumber: 2023
 })
 ```
@@ -214,5 +214,5 @@ new numberRush('numberOne', {
 автоматически будут применяться
 следующие значения которые указаны по умолчанию:
 * speed : 5
-* steep : 1
+* steps : 1
 * maxNumber : 300
