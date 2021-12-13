@@ -21,7 +21,7 @@ class numberRush {
                 this._activeView(obgTag, timeTag, numberMax, numberTag)
             }
         })
-        if(mrginTop < window.innerHeight){
+        if(mrginTop > window.innerHeight){
             this._activeView(obgTag, timeTag, numberMax, numberTag)
         }
     }
